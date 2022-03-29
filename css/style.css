@@ -1,0 +1,105 @@
+.k_container{
+  width:92%;
+  margin: 0 auto;
+}
+
+
+.k_btn {
+
+}
+
+/* 
+HEADER 
+*/
+header {
+  width:100%;
+  min-height: 100px;
+}
+.top-header {
+  background-color: black;
+  padding: 8px 15px;
+}
+
+.top-header img {
+  width: 75px;
+}
+.top-header,
+.bottom-header{
+  width:100%;
+
+}
+
+
+/* 
+JUMBOTRON 
+*/
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: blueviolet;
+}
+
+.jumbo-content {
+  position: absolute;
+}
+
+.jumbotron img {
+  width:250px;
+}
+
+.jumbotron .background-image{
+  width: 100%;
+}
+
+/* MAIN*/
+
+/* 
+SECTION-1
+*/
+
+/* 
+SECTION-2
+*/
+
+/* 
+SECTION-3
+*/
+
+/* 
+SECTION-4
+*/
+
+/* 
+SOCIAL
+*/
+
+/* 
+FOOTER
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+ DEBUG 
+ */
+
+ .debug {
+  background-color: rgba(255, 0 , 0, .3);
+  border: 1px solid black;)
+ }
+
+ .h-500 {
+   min-height: 400px;
+ }
+ 
+ .cl-white {
+   color: white;
+ }
