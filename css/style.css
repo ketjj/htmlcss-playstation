@@ -94,7 +94,7 @@ JUMBOTRON
 
 /* LOW-JUMBOTRON */
 
-.low-jumbotron .col {
+.low-jumbotron .col{
   min-height: 120px;
   margin-bottom: 3%;
 }
@@ -107,33 +107,93 @@ JUMBOTRON
 .card img {
   height: 100%;
 }
+
 /* MAIN*/
 
 /* 
 SECTION-1
 */
 section { 
-  margin-top: 80px;
+  margin-top: 20px;
 }
-#ps-5 {
-  height: 400px;
-}
-#ps-5 .col {
-  height: 100%;
-}
+
 .blue {
   font-size: 14px;
   color: #1d82d3;
 }
 
+#ps-5 img {
+  width: 100%;
+}
+#ps-5 button {
+  margin: 30px 0;
+}
+#ps-5 .k_box{
+  width:100%;
+  padding: 10% 0;
+  opacity: .7;
+}
+
+#ps-5 .k_box img{
+  width: 65%;
+}
+.k_box.active{
+  border-bottom: 2px solid #1d82d3;
+}
+#ps-5 .k_box:hover {
+  opacity: 1;
+}
+
 /* 
 SECTION-2
 */
+#games {
+  background-color: #1f1f1f;
+}
+.jumbotron.adventure{
+  background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+  margin-bottom: 40px;
+}
+#games .jumbotron img {
+  width:220px;
+}
+#games button {
+  margin: 10px 0;
+}
+
+.bottom-games .col{
+  margin-bottom: 3%;
+}
+.bottom-games .col .k_box {
+  width: 100%;
+  min-height: 150px;
+}
+.col .k_box img {
+  width: 100%;
+}
+.bottom-games h2,
+.bottom-games h4 {
+  margin-bottom: 30px;
+}
 
 /* 
 SECTION-3
 */
-
+#hardware {
+  padding: 30px 0;
+  min-height: 500px;
+}
+span {
+  content: "\00AE";
+  font-size: 10px;
+  vertical-align: super;
+}
+#hardware .k_container img {
+  width: 100%;
+}
+#hardware .k_container {
+  min-height: auto;
+}
 /* 
 SECTION-4
 */
@@ -164,8 +224,8 @@ FOOTER
   border: 1px solid black;)
  }
 
- .h-500 {
-   min-height: 400px;
+ .h-200 {
+   min-height: 200px;
  }
  
  .cl-white {
