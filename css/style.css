@@ -4,8 +4,17 @@ body{
   font-family:Arial, Helvetica, sans-serif;
 }
 
+li {
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,
+.jumbotron img,
+.jumbotron p {
+  margin-bottom: 30px;
+}
 .k_container{
-  width:92%;
+  width:88%;
   margin: 0 auto;
 }
 
@@ -72,12 +81,6 @@ JUMBOTRON
   width:250px;
 }
 
-.jumbotron img,
-.jumbotron h1,
-.jumbotron p {
-  margin-bottom: 30px;
-}
-
 .k_btn {
   border-radius: 50px; 
 }
@@ -96,7 +99,6 @@ JUMBOTRON
 
 .low-jumbotron .col{
   min-height: 120px;
-  margin-bottom: 3%;
 }
 .low-jumbotron .card{
   height:100%;
@@ -119,7 +121,9 @@ SECTION-1
   color: #1d82d3;
 }
 
-#ps-5 img {
+#ps-5 img,
+.col .k_box img,
+#offer .col .card {
   width: 100%;
 }
 #ps-5 button {
@@ -149,7 +153,6 @@ SECTION-2
 }
 .jumbotron.adventure{
   background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
-  margin-bottom: 40px;
 }
 #games .jumbotron img {
   width:220px;
@@ -158,19 +161,16 @@ SECTION-2
   margin: 10px 0;
 }
 
-.bottom-games .col{
+.bottom-games .col,
+.low-jumbotron .col,
+.social_box .col,
+#company .col,
+#hardware .k_container .col{
   margin-bottom: 3%;
 }
 .bottom-games .col .k_box {
   width: 100%;
   min-height: 150px;
-}
-.col .k_box img {
-  width: 100%;
-}
-.bottom-games h2,
-.bottom-games h4 {
-  margin-bottom: 30px;
 }
 
 /* 
@@ -187,10 +187,9 @@ span {
 }
 #hardware .k_container img {
   width: 100%;
-}
-#hardware .k_container img {
   min-height: 600;
 }
+
 #hardware .k_container .col{
   min-height: 400px;
 }
@@ -237,28 +236,69 @@ OFFER
   padding: 0 20px;
 }
 
-#offer .col .card{
-  width: 100%;
-}
+
 /* 
-SOCIAL
-/* 
-FOOTER
+SOCIAL 
 */
 
+.social,
+.social .col-8 .row,
+.social .col-8 .col img,
+.social_box .col img,
+.social_box .row {
+  width:100%;
+}
+
+.social_box {
+  width: 60%;
+  min-height: 30px;
+}
+
+/* 
+FOOTER 
+*/
+footer {
+  background-color: #00439c;
+  min-height: 300px;
+}
+.f_logo1 {
+  width: 85px;
+}
+.footer_icons{
+  vertical-align: middle;
+}
+.footer_icons span {
+  font-size: 14px;
+  vertical-align: middle;
+}
+.fa-globe {
+  vertical-align: middle;
+  margin-right: 7px;
+}
+.f_logo2 {
+  width: 150px;
+}
+.k_li ul li {
+  line-height: 30px;
+}
 
 
+/* MEDIA */
 
+@media (max-width: 576px) {
+  .social_box {
+    width: 100%;
+    padding: 10px;
+  }
 
-
-
+}
 
 
 
 /*
  DEBUG 
  */
-
+ 
  .debug {
   background-color: rgba(255, 0 , 0, .3);
   border: 1px solid black;)
